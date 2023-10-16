@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "work";
+  src: url(./../fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "inter";
+  src: url(./../fonts/inter.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  padding-inline: 8%;
+  background-color: black;
+  text-align: center;
+}
+header div.linie {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3019607843);
+  height: 150px;
+  margin: 0 auto 2.625rem auto;
+}
+header p {
+  font-size: 0.75rem;
+  font-family: "work";
+  font-weight: 400;
+  color: white;
+}
+header h1 {
+  font-size: 4rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: white;
+  width: 25rem;
+  margin: 0 auto;
+}
+header h1 span {
+  display: inline-block;
+  transform: translateY(-26px);
+  color: black;
+  text-shadow: 1px 1px 0 white, -1px -1px 0 white, -1px 1px 0 white, 1px -1px 0 white;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+header div a {
+  padding: 0.875rem 2rem;
+  color: white;
+  outline: 1px solid rgba(255, 255, 255, 0.3019607843);
+}
+
+main {
+  overflow: hidden;
+}
+main section.eins {
+  padding-inline: 8%;
+  background-color: black;
+  color: white;
+  padding-bottom: 200px;
+}
+main section.eins h1 {
+  font-size: 6rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+  width: 90%;
+}
+main section.eins p {
+  font-size: 0.875rem;
+  font-family: "work";
+  font-weight: 400;
+  color: inherit;
+}
+main section.eins img {
+  position: absolute;
+  width: 450px;
+  right: 0;
+  transform: translatey(-400px);
+}
+main section.zwei {
+  position: relative;
+  padding: 410px 0 310px 33%;
+}
+main section.zwei h1 {
+  font-size: 5.1875rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+  width: 28.4375rem;
+}
+main section.zwei p {
+  font-size: 1rem;
+  font-family: "work";
+  font-weight: 400;
+  color: inherit;
+  width: 435px;
+  line-height: 1.875rem;
+}
+main section.zwei p:nth-of-type(1) {
+  margin-bottom: 680px;
+}
+main section.zwei img:nth-of-type(1) {
+  position: absolute;
+  width: 330px;
+  top: -82px;
+  left: 70vw;
+}
+main section.zwei img:nth-of-type(2) {
+  position: absolute;
+  width: 275px;
+  top: 280px;
+  left: 5vw;
+}
+main section.zwei img:nth-of-type(3) {
+  position: absolute;
+  width: 275px;
+  top: 665px;
+  left: auto;
+  right: 0;
+}
+main section.zwei img:nth-of-type(4) {
+  position: absolute;
+  width: 330px;
+  top: 875px;
+  left: 15vw;
+}
+main section.zwei img:nth-of-type(5) {
+  position: absolute;
+  width: 330px;
+  top: 1060px;
+  left: 60vw;
+}
+main section.zwei img:nth-of-type(6) {
+  position: absolute;
+  width: 275px;
+  top: 1360px;
+  left: 0px;
+}
+main section.zwei img:nth-of-type(7) {
+  position: absolute;
+  width: 440px;
+  top: 1640px;
+  left: 50vw;
+}
+main section.drei {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 170px 110px 540px 110px;
+}
+main section.drei p {
+  font-size: 1.1875rem;
+  font-family: "work";
+  font-weight: 400;
+  color: inherit;
+}
+main section.drei article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main section.drei h1 {
+  font-size: 5.25rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+  grid-row: 1/3;
+  width: 18.75rem;
+  margin-bottom: 170px;
+}
+main section.drei h3 {
+  font-size: 1.75rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+}
+main section.drei img:nth-of-type(1) {
+  position: absolute;
+  width: 731px;
+  top: 650px;
+  left: 110px;
+}
+main section.drei img:nth-of-type(2) {
+  position: absolute;
+  width: 366px;
+  top: 815px;
+  left: 780px;
+  z-index: 2;
+}
+main img.animation {
+  width: 411px;
+  margin-left: 80%;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+main section.vier {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3019607843);
+  color: black;
+  padding: 170px 110px 750px 110px;
+}
+main section.vier p {
+  font-size: 1.1875rem;
+  font-family: "work";
+  font-weight: 400;
+  color: inherit;
+}
+main section.vier article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main section.vier h1 {
+  font-size: 5.25rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+  grid-row: 1/3;
+  width: 18.75rem;
+  margin-bottom: 170px;
+}
+main section.vier h3 {
+  font-size: 1.75rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: inherit;
+}
+main section.vier img:nth-of-type(1) {
+  position: absolute;
+  width: 366px;
+  top: 815px;
+  left: 160px;
+}
+main section.vier img:nth-of-type(2) {
+  position: absolute;
+  width: 731px;
+  top: 650px;
+  left: 475px;
+}
+
+footer {
+  overflow: hidden;
+}
+footer div.ticker-wrap {
+  position: relative;
+  transform: rotate(45deg);
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: white;
+  padding-left: 100%;
+  z-index: 2;
+}
+footer div.ticker-wrap div.ticker {
+  display: inline-flex;
+  height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation-name: ticker;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+footer div.ticker-wrap div.ticker p {
+  display: inline-flex;
+  align-items: center;
+}
+footer section {
+  background-color: black;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 92px 110px 20px 110px;
+}
+footer section div.animation {
+  grid-column: 1/3;
+}
+footer section div.social {
+  display: flex;
+}
+footer section div.logos {
+  display: flex;
+}
+footer section a,
+footer section p {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: "work";
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1.75rem;
+}
+footer section a.button {
+  padding: 0.875rem 2rem;
+  color: white;
+  outline: 1px solid rgba(255, 255, 255, 0.3019607843);
+  background-color: black;
+}
+footer section h1 {
+  font-size: 1.5rem;
+  font-family: "inter";
+  font-weight: 700;
+  color: white;
+  width: 31.25rem;
+  line-height: 2.875rem;
+}
+footer section .social img {
+  width: 15px;
+  margin-right: 5px;
+}
+footer section .logos img {
+  position: absolute;
+  width: 50px;
+  bottom: 60px;
+  right: 149px;
+}
+footer section .logos img:nth-of-type(1) {
+  right: 200px;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateY(-130px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-130px) rotate(360deg);
+  }
+}
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

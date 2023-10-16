@@ -1,0 +1,12 @@
+@mixin fontstyle($si, $fa, $we, $co: inherit) {
+  font-size: $si;
+  font-family: $fa;
+  font-weight: $we;
+  color: $co;
+}
+@mixin imgstyle($wi, $to, $le) {
+  position: absolute;
+  width: $wi;
+  top: $to;
+  left: $le;
+}
